@@ -1,0 +1,47 @@
+<!DOCUMENT html>
+<html>
+
+	<head>
+		<title>Score 2!</title>
+		<link href = "style.css" rel = "stylesheet"/>
+		
+	</head>
+
+	<body	id = "body" onload = "onLoad()">
+	
+		<div id = "dialogoverlay"></div>
+		<div id = "dialogbox">
+			<div>
+				<div id="dialogboxhead"></div>
+				<div id="dialogboxbody"></div>
+				<div id="dialogboxfoot"></div>
+			</div>
+		</div>
+	
+	
+		
+		<h1 style = "margin-bottom:-20px">Score 2!</h1>
+		<h2 id = "round" style = "padding-right:50px; margin-bottom:-5px;margin-left:3px;">Round: 1</h2>
+		<table>
+			<tr>
+				<td><h2 id = "red" >Red: 0</h2></td>
+				<td><h2 id = "blue" >Blue: 0</h2></td>
+			</tr>
+		</table>
+		
+		
+		<button style ="margin-bottom:5px" type = "button" onclick = "restart()">Restart</button>
+		<button style ="margin-bottom:5px" type = "button" onclick = "nextRound()">Next Round</button>
+		<!-- <button style ="margin-bottom:5px" type = "button" onclick = "Alert.render()">Alert</button> -->
+		
+		<div>
+			<canvas  id = "canvas" width = "490px" height = "420px"></canvas>
+		</div>
+		<script src = "code.js" type = "text/javascript"> </script>
+		
+	</body>
+	
+
+
+
+</html>
